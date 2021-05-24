@@ -162,8 +162,10 @@ The ELK Stack Installed are: FileBeat and MetricBeat
 These Beats allow us to collect the following information from each machine:
 
 Filebeat: log events
+https://github.com/atithivirmani/Project-ELK-ARV/blob/main/Diagrams/Filebeat.PNG
 
 Metricbeat: metrics and system statistics
+https://github.com/atithivirmani/Project-ELK-ARV/blob/main/Diagrams/Metricbeat.PNG
 
 
 \### Using the Playbook
