@@ -75,19 +75,19 @@ Workstation Public IP :  14.201.15.150 via port TCP 5601
 
 A summary of the access policies in place can be found in the table below.
 
-Name 	            Publicly Accessible 	Allowed IP Addresses
+Name 	            Publicly Accessible 	       Allowed IP Addresses
 
-Jump Box 	         No 	                14.201.15.150 on SSH 22
+Jump Box 	              No 	                      14.201.15.150 on SSH 22
 
-Web1 	                 No 	                10.0.0.8 on SSH 22
+Web1 	                  No 	                      10.0.0.8 on SSH 22
 
-Web2                     No                     10.0.0.9 on SSH 22
+Web2                    No                        10.0.0.9 on SSH 22
 
-Web3 	                 No 	                10.0.0.13 on SSH 22
+Web3 	                  No 	                      10.0.0.13 on SSH 22
 
-ELK Server 	         No 	                14.201.15.150 using TCP 5601
+ELK Server 	            No 	                      14.201.15.150 using TCP 5601
 
-Load balancer 	         No 	                14.201.15.150 on HTTP 80
+Load balancer 	        No 	                      14.201.15.150 on HTTP 80
 
 
 \### Elk Configuration
