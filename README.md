@@ -3,11 +3,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/atithivirmani/Project-ELK-ARV.git/blob/Diagrams/ELK Network Diagram.png?raw=true –
+https://github.com/atithivirmani/Project-ELK-ARV/blob/main/Diagrams/ELKNetworkDiagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the file may be used to install only certain pieces of it, such as Filebeat.
 
-- \_TODO: Enter the playbook file.\_
+https://github.com/atithivirmani/Project-ELK-ARV/tree/main/Ansible
 
 This document contains the following details:
 
@@ -75,19 +75,19 @@ Workstation Public IP :  14.201.15.150 via port TCP 5601
 
 A summary of the access policies in place can be found in the table below.
 
-Name 	            Publicly Accessible 	Allowed IP Addresses
+Name 	            Publicly Accessible 	       Allowed IP Addresses
 
-Jump Box 	         No 	                14.201.15.150 on SSH 22
+Jump Box 	              No 	                      14.201.15.150 on SSH 22
 
-Web1 	                 No 	                10.0.0.8 on SSH 22
+Web1 	                  No 	                      10.0.0.8 on SSH 22
 
-Web2                     No                     10.0.0.9 on SSH 22
+Web2                    No                        10.0.0.9 on SSH 22
 
-Web3 	                 No 	                10.0.0.13 on SSH 22
+Web3 	                  No 	                      10.0.0.13 on SSH 22
 
-ELK Server 	         No 	                14.201.15.150 using TCP 5601
+ELK Server 	            No 	                      14.201.15.150 using TCP 5601
 
-Load balancer 	         No 	                14.201.15.150 on HTTP 80
+Load balancer 	        No 	                      14.201.15.150 on HTTP 80
 
 
 \### Elk Configuration
@@ -138,15 +138,7 @@ Launching and Exposing the container with these published ports:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-sysadmin@Web-1-ELK:~$ sudo docker ps -a
-
-CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                    PORTS                                                                                        NAMES
-
-11dcbd42e7d0   sebp/elk:761          "/usr/local/bin/starâ€¦"   4 days ago   Up 7 hours                0.0.0.0:5601->5601/tcp, 5044/tcp, 9300/tcp, 0.0.0.0:9200->9200/tcp, 0.0.0.0:5044->5400/tcp   elk
-
-9f29d57b3d2b   cyberxsecurity/dvwa   "/main.sh"               4 days ago   Exited (137) 4 days ago                                                                                                dvwa
-
-sysadmin@Web-1-ELK:~$
+https://github.com/atithivirmani/Project-ELK-ARV/blob/main/Diagrams/ELK%20running.PNG
 
 The status should be up.
 
@@ -170,8 +162,10 @@ The ELK Stack Installed are: FileBeat and MetricBeat
 These Beats allow us to collect the following information from each machine:
 
 Filebeat: log events
+https://github.com/atithivirmani/Project-ELK-ARV/blob/main/Diagrams/Filebeat.PNG
 
 Metricbeat: metrics and system statistics
+https://github.com/atithivirmani/Project-ELK-ARV/blob/main/Diagrams/Metricbeat.PNG
 
 
 \### Using the Playbook
