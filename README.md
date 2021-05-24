@@ -138,15 +138,7 @@ Launching and Exposing the container with these published ports:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-sysadmin@Web-1-ELK:~$ sudo docker ps -a
-
-CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                    PORTS                                                                                        NAMES
-
-11dcbd42e7d0   sebp/elk:761          "/usr/local/bin/starâ€¦"   4 days ago   Up 7 hours                0.0.0.0:5601->5601/tcp, 5044/tcp, 9300/tcp, 0.0.0.0:9200->9200/tcp, 0.0.0.0:5044->5400/tcp   elk
-
-9f29d57b3d2b   cyberxsecurity/dvwa   "/main.sh"               4 days ago   Exited (137) 4 days ago                                                                                                dvwa
-
-sysadmin@Web-1-ELK:~$
+https://github.com/atithivirmani/Project-ELK-ARV/blob/main/Diagrams/ELK%20running.PNG
 
 The status should be up.
 
